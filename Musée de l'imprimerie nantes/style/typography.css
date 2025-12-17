@@ -1,0 +1,9 @@
+/* =========================================
+TYPOGRAPHIE (Titres H1, H2)
+   ========================================= */
+h1, h2 {
+    font-family: 'Zilla Slab', serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
