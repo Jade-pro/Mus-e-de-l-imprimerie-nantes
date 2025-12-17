@@ -1,9 +1,14 @@
-/* =========================================
-   HERO / BANNIÈRE PRINCIPALE
-   ========================================= */
-/* Note : Aucune règle CSS spécifiquement dédiée à une section "hero" 
-   n'a été identifiée dans le code original, à part l'image par défaut 
-   qui est gérée dans systeme.css. 
-   
-   Ajoutez vos styles de Hero ici.
-*/
+/* 2. LE CONTENEUR DE L'IMAGE */
+.banner-full-width {
+   width: 100%;
+   margin: 0;
+   padding: 0; 
+   line-height: 0; 
+}
+
+/* 3. L'IMAGE ELLE-MÊME */
+.banner-full-width img {
+   width: 100%;
+   height: auto;
+   display: block;
+}

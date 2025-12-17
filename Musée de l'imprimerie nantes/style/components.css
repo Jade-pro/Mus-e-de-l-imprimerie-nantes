@@ -446,9 +446,11 @@ Histoire, Expos, Actus, Ateliers
 
 .workshop-img-container img {
     width: 100%;
-    height: 100%;
+    height: 250%;
     object-fit: cover;
+    overflow: hidden;
     display: block;
+    background-color: #eee;
 }
 
 .workshop-content {
