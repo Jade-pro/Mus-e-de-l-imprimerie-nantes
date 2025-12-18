@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exposition</title>
+
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column; /* ⬅ empile verticalement */
+            justify-content: center;
+            align-items: center;
+            background: #fff;
+            font-family: Zilla Slab Highlighted, serif;
+        }
+
+        h1 {
+            margin-bottom:100px;
+            font-size: 22px;
+            text-align: center;
+            font-weight: normal;
+        }
+
+        .slider {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        img {
+            width: 400px;
+            height: auto;
+            display: block;
+        }
+
+        .fleches-gauches,
+        .fleches-droites {
+            background: none;
+            border: 1px solid #000;
+            width: 45px;
+            height: 45px;
+            font-size: 22px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>―――――――――――――――― GALERIE PHOTOS ――――――――――――――――</h1>
+
+    <div class="slider">
+        <button class="fleches-gauches">‹</button>
+
+        <img src="images/expoex.png" alt="Image">
+
+        <button class="fleches-droites">›</button>
+    </div>
+
+</body>
+</html>
