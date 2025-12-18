@@ -39,7 +39,6 @@ Histoire, Expos, Actus, Ateliers
 .section-title span {
     background: #000;
     color: #fff;
-    padding: 4px 8px;
     margin: 0 2px;
     display: inline-block;
 }
@@ -308,7 +307,6 @@ Histoire, Expos, Actus, Ateliers
 .section-title-news span { 
     background: #000; 
     color: #fff; 
-    padding: 4px 8px; 
     margin: 0 2px; 
     display: inline-block;
 }
