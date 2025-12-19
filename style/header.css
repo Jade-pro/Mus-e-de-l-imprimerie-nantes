@@ -1,0 +1,119 @@
+/* =========================================
+HEADER & NAVIGATION PRINCIPALE
+   ========================================= */
+.main-nav {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0 36px;
+    display: inline-flex;
+    gap: 36px;
+    align-items: center;
+    position: relative;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 12px 6px;
+    display: inline-block;
+    transition: color .12s ease, transform .08s ease;
+}
+
+.main-nav a:hover {
+    transform: translateY(-2px);
+}
+
+/* --- COULEURS AU SURVOL --- */
+
+.main-nav ul li:nth-child(1) a:hover { 
+    color: #000000;
+}
+
+.main-nav ul li:nth-child(2) a:hover {
+    color: #0296FF;
+}
+
+.main-nav ul li:nth-child(3) a:hover { 
+    color: magenta;
+}
+
+.main-nav ul li:nth-child(4) a:hover {
+    color: #e8c604;
+}
+
+.main-nav ul li:nth-child(5) a:hover {
+    color: #000000;
+}
+
+/* Lignes sur les côtés */
+.main-nav ul::before,
+.main-nav ul::after {
+    content: "";
+    position: absolute;
+    top: 30px;
+    transform: translateY(-50%);
+    height: 2px;
+    background: #000;
+    width: 30vw;
+}
+.main-nav ul::before {
+    right: 100%;
+    margin-right: 20px;
+}
+.main-nav ul::after {
+    left: 100%;
+    margin-left: 20px;
+}
+
+/* Règle épaisse */
+.rule-thick {
+    width: 100%;
+    height: 6px;
+    background: #000;
+    margin: 18px 0 6px;
+    box-sizing: border-box;
+}
+
+/* Responsive Navigation */
+@media (max-width: 1024px) {
+    .main-nav ul::before, .main-nav ul::after {
+        width: 14vw;
+    }
+    .main-nav a {
+        font-size: .95rem;
+        padding: 10px 6px;
+    }
+    .rule-thick {
+        height: 5px;
+    }
+}
+
+@media (max-width: 600px) {
+    .main-nav ul {
+        flex-direction: column;
+        gap: 10px;
+        padding: 6px 12px;
+    }
+    .main-nav ul::before, .main-nav ul::after {
+        display: none;
+    }
+    .rule-thick {
+        height: 4px;
+        margin: 10px 0;
+    }
+    .main-nav a {
+        font-size: 1rem;
+        padding: 8px 6px;
+    }
+}
