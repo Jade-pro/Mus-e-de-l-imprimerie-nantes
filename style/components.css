@@ -327,7 +327,6 @@ Histoire, Expos, Actus, Ateliers
     justify-content: space-between;
     transition: transform 0.2s ease;
 }
-
 .news-card:hover { 
     transform: translate(-2px, -2px);
 }
