@@ -336,8 +336,6 @@ Histoire, Expos, Actus, Ateliers
     bottom: 10px;
     /* La couleur du carré */
     background-color: #000;
-    /* On le place derrière la carte blanche */
-    z-index: -1;
 }
 
 .news-card:hover { 
