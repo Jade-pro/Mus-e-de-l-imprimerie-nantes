@@ -328,8 +328,6 @@ Histoire, Expos, Actus, Ateliers
     transition: transform 0.2s ease;
 }
 
-/* --- Optionnel : Ton animation au survol --- */
-/* Quand on survole, la carte blanche remonte un peu */
 .news-card:hover { 
     transform: translate(-2px, -2px);
 }
