@@ -335,9 +335,6 @@ Histoire, Expos, Actus, Ateliers
     /* Ces valeurs déterminent le décalage (taille de l'ombre dure) */
     top: 10px;    
     left: 10px;
-    /* Prend exactement la même taille que la carte */
-    width: 100%;
-    height: 100%;
     /* La couleur du carré */
     background-color: #000;
     /* On le place derrière la carte blanche */
