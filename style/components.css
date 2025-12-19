@@ -322,15 +322,19 @@ Histoire, Expos, Actus, Ateliers
     background: #fff;
     padding: 25px 20px;
     position: relative;
+    z-index: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     transition: transform 0.2s ease;
 }
 
+/* --- Optionnel : Ton animation au survol --- */
+/* Quand on survole, la carte blanche remonte un peu */
 .news-card:hover { 
     transform: translate(-2px, -2px);
 }
+/* Et l'ombre noire bouge dans le sens inverse (effet de profondeur) */
 .news-card:hover::after { 
     transform: translate(2px, 2px);
 }
