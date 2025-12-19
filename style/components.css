@@ -329,6 +329,24 @@ Histoire, Expos, Actus, Ateliers
     transition: transform 0.2s ease;
 }
 
+/* C'est ici que l'on crée le carré noir */
+.news-card::after {
+    content: "";
+    position: absolute;
+    /* Ces valeurs définissent l'épaisseur du décalage (comme sur la photo) */
+    top: 10px;   
+    left: 10px;
+    /* Prend la même taille que la carte */
+    width: 100%;
+    height: 100%;
+    /* La couleur noire de fond */
+    background-color: #000;
+    /* On le place derrière la carte blanche */
+    z-index: -1; 
+    /* Petite transition si tu veux l'animer plus tard */
+    transition: transform 0.2s ease;
+}
+
 /* --- Optionnel : Ton animation au survol --- */
 /* Quand on survole, la carte blanche remonte un peu */
 .news-card:hover { 
@@ -336,7 +354,7 @@ Histoire, Expos, Actus, Ateliers
 }
 /* Et l'ombre noire bouge dans le sens inverse (effet de profondeur) */
 .news-card:hover::after { 
-    transform: translate(2px, 2px);
+    transform: translate(4px, 4px);
 }
 
 .badge { 
