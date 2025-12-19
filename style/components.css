@@ -332,9 +332,8 @@ Histoire, Expos, Actus, Ateliers
 .news-card::after {
     content: "";
     position: absolute;
-    /* Ces valeurs déterminent le décalage (taille de l'ombre dure) */
-    top: 10px;    
-    left: 10px;
+    right: 10px;    
+    bottom: 10px;
     /* La couleur du carré */
     background-color: #000;
     /* On le place derrière la carte blanche */
