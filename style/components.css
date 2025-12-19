@@ -354,7 +354,7 @@ Histoire, Expos, Actus, Ateliers
 }
 /* Et l'ombre noire bouge dans le sens inverse (effet de profondeur) */
 .news-card:hover::after { 
-    transform: translate(4px, 4px);
+    transform: translate(2px, 2px);
 }
 
 .badge { 
