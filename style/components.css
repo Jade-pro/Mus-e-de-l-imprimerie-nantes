@@ -333,8 +333,8 @@ Histoire, Expos, Actus, Ateliers
     content: "";
     position: absolute;
     /* Ces valeurs déterminent le décalage (taille de l'ombre dure) */
-    top: 10px;    
-    left: 10px;
+    top: 5px;    
+    left: 5px;
     /* La couleur du carré */
     background-color: #000;
     /* On le place derrière la carte blanche */
